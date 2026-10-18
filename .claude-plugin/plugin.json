@@ -1,0 +1,9 @@
+{
+  "name": "port-light",
+  "version": "0.1.0",
+  "types": "./types/index.d.ts",
+  "description": "Band above the prompt showing a TCP ports as green when in use (listening) and red when free.",
+  "userConfig": {
+    "port": { "type": "string", "title": "Ports", "description": "TCP ports to watch, comma-separated", "default": "22000,22201" }
+  }
+}
